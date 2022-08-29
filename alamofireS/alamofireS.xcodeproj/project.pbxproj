@@ -18,6 +18,9 @@
 		FA3C1B3628BC931400743376 /* DogInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C1B3528BC931400743376 /* DogInfoViewModel.swift */; };
 		FA3C1B3828BC933C00743376 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C1B3728BC933C00743376 /* Repository.swift */; };
 		FA3C1B3A28BC93EB00743376 /* DogInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C1B3928BC93EB00743376 /* DogInfoService.swift */; };
+		FA3C1B3D28BC9A3100743376 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3C1B3C28BC9A3100743376 /* Protocol.swift */; };
+		FA3C1B4128BC9EF400743376 /* readdog copy.json in Resources */ = {isa = PBXBuildFile; fileRef = FA3C1B3F28BC9EF400743376 /* readdog copy.json */; };
+		FA3C1B4228BC9EF400743376 /* walkdog copy.json in Resources */ = {isa = PBXBuildFile; fileRef = FA3C1B4028BC9EF400743376 /* walkdog copy.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		FA3C1B3528BC931400743376 /* DogInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogInfoViewModel.swift; sourceTree = "<group>"; };
 		FA3C1B3728BC933C00743376 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		FA3C1B3928BC93EB00743376 /* DogInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogInfoService.swift; sourceTree = "<group>"; };
+		FA3C1B3C28BC9A3100743376 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		FA3C1B3F28BC9EF400743376 /* readdog copy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "readdog copy.json"; sourceTree = "<group>"; };
+		FA3C1B4028BC9EF400743376 /* walkdog copy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "walkdog copy.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,8 @@
 		FA3C1B1928BC8B4300743376 /* alamofireS */ = {
 			isa = PBXGroup;
 			children = (
+				FA3C1B3E28BC9DD300743376 /* lottie */,
+				FA3C1B3B28BC9A1C00743376 /* protocol */,
 				FA3C1B3228BC8F0000743376 /* service */,
 				FA3C1B3128BC8EF100743376 /* model */,
 				FA3C1B3028BC8EE900743376 /* repository */,
@@ -141,6 +149,23 @@
 				FA3C1B3928BC93EB00743376 /* DogInfoService.swift */,
 			);
 			path = service;
+			sourceTree = "<group>";
+		};
+		FA3C1B3B28BC9A1C00743376 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FA3C1B3C28BC9A3100743376 /* Protocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		FA3C1B3E28BC9DD300743376 /* lottie */ = {
+			isa = PBXGroup;
+			children = (
+				FA3C1B3F28BC9EF400743376 /* readdog copy.json */,
+				FA3C1B4028BC9EF400743376 /* walkdog copy.json */,
+			);
+			path = lottie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +229,8 @@
 			files = (
 				FA3C1B2728BC8B4500743376 /* LaunchScreen.storyboard in Resources */,
 				FA3C1B2428BC8B4500743376 /* Assets.xcassets in Resources */,
+				FA3C1B4228BC9EF400743376 /* walkdog copy.json in Resources */,
+				FA3C1B4128BC9EF400743376 /* readdog copy.json in Resources */,
 				FA3C1B2228BC8B4300743376 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +270,7 @@
 				FA3C1B3A28BC93EB00743376 /* DogInfoService.swift in Sources */,
 				FA3C1B1F28BC8B4300743376 /* ViewController.swift in Sources */,
 				FA3C1B1B28BC8B4300743376 /* AppDelegate.swift in Sources */,
+				FA3C1B3D28BC9A3100743376 /* Protocol.swift in Sources */,
 				FA3C1B3428BC925600743376 /* DogInfo.swift in Sources */,
 				FA3C1B1D28BC8B4300743376 /* SceneDelegate.swift in Sources */,
 				FA3C1B3628BC931400743376 /* DogInfoViewModel.swift in Sources */,

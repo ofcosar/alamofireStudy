@@ -17,21 +17,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TcS-5H-ws1" customClass="AnimationView" customModule="Lottie">
-                                <rect key="frame" x="107" y="144" width="200" height="200"/>
+                                <rect key="frame" x="107" y="94" width="200" height="200"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="STU-6W-MdV"/>
                                     <constraint firstAttribute="height" constant="200" id="yEM-jr-l1E"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="walkdog copy"/>
+                                </userDefinedRuntimeAttributes>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMp-Mz-dJK">
-                                <rect key="frame" x="186" y="394" width="42" height="21"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ije-fK-ERB" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="107" y="94" width="200" height="200"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="4CL-Sm-hOk"/>
+                                    <constraint firstAttribute="height" constant="200" id="CYT-gk-sGn"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="readdog copy"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="welcome!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMp-Mz-dJK">
+                                <rect key="frame" x="10" y="344" width="394" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Dh-7N-3qF">
-                                <rect key="frame" x="123" y="465" width="168" height="31"/>
+                                <rect key="frame" x="123" y="414.5" width="168" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="click for a random info"/>
                                 <connections>
@@ -42,17 +56,21 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="TcS-5H-ws1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="M74-wo-I1i"/>
+                            <constraint firstItem="TcS-5H-ws1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="M74-wo-I1i"/>
                             <constraint firstItem="6Dh-7N-3qF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MCr-na-EOX"/>
+                            <constraint firstItem="Ije-fK-ERB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="50" id="NKN-Uc-cJw"/>
+                            <constraint firstItem="dMp-Mz-dJK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="VJw-xn-b0G"/>
                             <constraint firstItem="dMp-Mz-dJK" firstAttribute="top" secondItem="TcS-5H-ws1" secondAttribute="bottom" constant="50" id="d4K-qX-6A5"/>
                             <constraint firstItem="6Dh-7N-3qF" firstAttribute="top" secondItem="dMp-Mz-dJK" secondAttribute="bottom" constant="50" id="dqf-X5-bas"/>
-                            <constraint firstItem="dMp-Mz-dJK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nzU-aO-nQG"/>
                             <constraint firstItem="TcS-5H-ws1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o3x-VR-hQQ"/>
+                            <constraint firstItem="Ije-fK-ERB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ofg-iF-Swh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dMp-Mz-dJK" secondAttribute="trailing" constant="10" id="p25-53-C4H"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="infoLabel" destination="dMp-Mz-dJK" id="LuH-gS-wPU"/>
                         <outlet property="lottieAnimation" destination="TcS-5H-ws1" id="AJi-KS-yK5"/>
+                        <outlet property="lottieAnimation2" destination="Ije-fK-ERB" id="sgI-82-K5i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
