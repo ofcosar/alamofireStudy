@@ -48,7 +48,6 @@
 				5C66D304A8BF36F13E54879E /* Pods-alamofireS.debug.xcconfig */,
 				D304CB7C52B7B9748045F1E1 /* Pods-alamofireS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +80,55 @@
 		FA3C1B1928BC8B4300743376 /* alamofireS */ = {
 			isa = PBXGroup;
 			children = (
+				FA3C1B3228BC8F0000743376 /* service */,
+				FA3C1B3128BC8EF100743376 /* model */,
+				FA3C1B3028BC8EE900743376 /* repository */,
+				FA3C1B2F28BC8EE000743376 /* viewModel */,
+				FA3C1B2E28BC8EDA00743376 /* view */,
 				FA3C1B1A28BC8B4300743376 /* AppDelegate.swift */,
 				FA3C1B1C28BC8B4300743376 /* SceneDelegate.swift */,
-				FA3C1B1E28BC8B4300743376 /* ViewController.swift */,
-				FA3C1B2028BC8B4300743376 /* Main.storyboard */,
 				FA3C1B2328BC8B4500743376 /* Assets.xcassets */,
 				FA3C1B2528BC8B4500743376 /* LaunchScreen.storyboard */,
 				FA3C1B2828BC8B4500743376 /* Info.plist */,
 			);
 			path = alamofireS;
+			sourceTree = "<group>";
+		};
+		FA3C1B2E28BC8EDA00743376 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FA3C1B1E28BC8B4300743376 /* ViewController.swift */,
+				FA3C1B2028BC8B4300743376 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FA3C1B2F28BC8EE000743376 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		FA3C1B3028BC8EE900743376 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		FA3C1B3128BC8EF100743376 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FA3C1B3228BC8F0000743376 /* service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
